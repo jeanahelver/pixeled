@@ -6,6 +6,7 @@ function draw(dt){
     PIX.setColor(0,0,0,255);
     PIX.fillRect(0,0,PIX.width+1,PIX.height+1);
     
+    PIX.sprite(PIX.width/2,20);
     PIX.print(10,PIX.height/2,"GRAPHICS sample");
 
     PIX.setColor({red:255});
